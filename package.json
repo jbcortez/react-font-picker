@@ -1,0 +1,33 @@
+{
+  "name": "react-font-picker",
+  "version": "1.0.0",
+  "description": "A simple font picker to use Google Fonts within your react application",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc && cp package.json README.md index.css ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbcortez/react-font-picker.git"
+  },
+  "keywords": [
+    "fonts",
+    "font-picker",
+    "react-font-picker",
+    "google-fonts",
+    "webfonts",
+    "google-web-fonts"
+  ],
+  "author": "Justin Cortez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbcortez/react-font-picker/issues"
+  },
+  "homepage": "https://github.com/jbcortez/react-font-picker#readme",
+  "peerDependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
